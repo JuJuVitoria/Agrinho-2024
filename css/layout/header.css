@@ -1,0 +1,106 @@
+header {
+    background-color: var(--cyan);
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.4);
+}
+
+
+.mobile-nav-toggle {
+    display: none;
+}
+
+.navegacao-primaria {
+    flex-direction: row;
+    gap: 1rem;
+    
+}
+
+.navegacao-item :hover {
+    opacity: .8;
+    transition: 350ms;
+}
+
+.navegacao-link {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    text-decoration: none;
+    color: var(--white); 
+    font-size: var(--tamanhoMedio);
+    font-weight: 500;
+}
+
+.navegacao-link img {
+    display: block;
+}
+
+@media screen and (max-width: 481px) {
+    header {
+        padding: .5rem 2rem;
+    }
+
+     .mobile-nav-toggle {
+        display: block;
+        position: absolute;
+        z-index: 9999;
+        background-color: transparent;
+        background-image: url("../../img/icons/menu.svg");
+        background-repeat: no-repeat;
+        width: 2.5rem;
+        border: 0;
+        aspect-ratio: 1;
+        top: 2rem;
+        right: 2rem;
+    }
+    
+    .mobile-nav-toggle[aria-expended="true"] {
+        background-image: url("../../img/icons/close.svg");
+    }
+    
+    .navegacao-primaria {
+        flex-direction: column;
+        gap: .5em;
+        background: var(--cyan);
+        opacity: .9;
+        position: fixed;
+        z-index: 1000;
+        inset: 0 0 0 30%;
+        padding: min(30vh, 4.5rem) 2rem;
+        transform: translateX(100%);
+        transition: transform 350ms ease-out;
+    }
+    
+    .navegacao-primaria[data-visible="true"] {
+        transform: translateX(0%);
+    }
+    
+    .navegacao-item {
+        padding-bottom: .5em;
+    }
+
+    .navegacao-link img {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: .5rem 2rem;
+    }
+
+    .navegacao-link img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        padding: .5rem 2rem;
+    }
+}

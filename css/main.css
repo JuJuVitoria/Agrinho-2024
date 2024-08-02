@@ -4,6 +4,61 @@
 @import url('./base/typography.css');
 
 /* Layout styles */
+@import url('./layout/header.css');
 
 /* Pages styles */
 @import url('./pages/index.css');
+@import url('./pages/home.css');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: var(--lightBlack);
+    overflow-x: hidden;
+    line-height: normal;
+    background-color: var(--white);
+}
+
+main {
+    padding: 2rem 2rem;
+    min-width: 320px;
+    max-width: 1040px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.titulo {
+    font-size: var(--tamanhoGrande);
+    font-weight: 600;
+    color: var(--lightBlack);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.subtitulo {
+    font-size: var(--tamanhoGrande);
+    font-weight: 500;
+    color: var(--lightBlack);
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.subtituloSecundario {
+    font-size: var(--tamanhoGrande);
+    font-weight: 400;
+    color: var(--lightBlack);
+    margin-bottom: .2rem;
+}
+
+.corpo {
+    font-size: var(--tamanhoMedio);
+    color: var(--lightBlack);
+    margin-bottom: .2rem;
+}
+
+.descricao {
+    font-size: var(--tamanhoPequeno);
+}
