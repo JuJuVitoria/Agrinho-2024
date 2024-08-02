@@ -1,0 +1,14 @@
+:root {
+    /*Fonts*/
+    --tamanhoGrande: 1.25rem;
+    --tamanhoMedio: 1.000rem;
+    --tamanhoPequeno: 0.812rem;
+
+    /*Colors*/
+    --green: #0c4b3b;
+    --cyan: #117785;
+    --darkBlue: #072e81;
+    --white: #fefefe;
+    --lightBlack: #373737;
+    --gray: #c9c9c9;
+}

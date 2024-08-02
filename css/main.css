@@ -1,0 +1,9 @@
+/* Base styles */ 
+@import url('./base/reset.css');
+@import url('./base/variables.css');
+@import url('./base/typography.css');
+
+/* Layout styles */
+
+/* Pages styles */
+@import url('./pages/index.css');
