@@ -1,0 +1,59 @@
+.img_colegio {
+    display: block;
+    margin: 1rem auto;
+    width: 30%;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.secao_contato {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.secao_contato a {
+    text-decoration: none;
+    color: var(--corTextoEscuro);
+}
+
+.secao_contato a :hover {
+    opacity: 0.9;
+    transition: 350ms;
+}
+
+.secao_localizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.secao_localizacao__mapa {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 var(--cinza), 0 6px 20px 0 var(--cinza);
+    height: 400px;
+}
+
+@media screen and (max-width: 770px) {
+    .img_colegio {
+        width: 40%;
+    }
+
+    .secao_localizacao__mapa {
+        width: 80%;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .img_colegio {
+        width: 50%;
+    }
+
+    .secao_localizacao__mapa {
+        width: 90%;
+        height: 350px;
+    }
+}

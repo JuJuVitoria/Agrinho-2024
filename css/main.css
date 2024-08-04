@@ -5,10 +5,12 @@
 
 /* Layout styles */
 @import url('./layout/header.css');
+@import url('./layout/footer.css');
 
 /* Pages styles */
 @import url('./pages/index.css');
 @import url('./pages/home.css');
+@import url('./pages/school.css');
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -17,13 +19,19 @@ body {
     overflow-x: hidden;
     line-height: normal;
     background-color: var(--white);
+
+    --width: 1024px;
+    
+    display: grid;
+    grid-template-columns: 
+        calc(50vw - calc(var(--width) / 2))
+        repeat(3, 1fr)
+        calc(50vw - calc(var(--width) / 2));
 }
 
 main {
     padding: 2rem 2rem;
-    min-width: 320px;
-    max-width: 1040px;
-    margin: auto;
+    grid-column: 2 / -2;
 }
 
 .flex {
