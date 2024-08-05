@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/svg" href="./img/icons/agriculture.svg"/>
+    <title>Sobre mim</title>
+
+    <link rel="stylesheet" href="./css/main.css">
+
+    
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./img/icons/agriculture.svg" alt="Logo do site">
+        </div>
+
+        <button class="mobile-nav-toggle" aria-controls="navegacao-primaria" aria-expended="false"></button>
+
+        <nav>
+            <ul id="navegacao-primaria" data-visible="false" data-visible="false" class="navegacao-primaria flex">
+                <li class="navegacao-item">
+                    <a href="./home.html" class="navegacao-link">
+                        <img src="./img/icons/home.svg" alt="Ícone home">
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li class="navegacao-item">
+                    <a href="./aboutMe.html" class="navegacao-link">
+                        <img src="./img/icons/person.svg" alt="Ícone sobre mim">
+                        <p>Sobre mim</p>
+                    </a>
+                </li>
+                <li class="navegacao-item">
+                    <a href="./school.html" class="navegacao-link">
+                        <img src="./img/icons/school.svg" alt="Ícone colégio">
+                        <p>Meu colégio</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1 class="titulo">Sobre mim</h1>
+            <img src="#" class="foto-perfil" alt="Foto de Julia">
+            <p class="corpo">Eu sou <strong>Julia Vitoria Da Luz</strong>, tenho 17 anos, nascida em Cruz Machado, Paraná onde vivo atualmente.</p>
+            <p class="corpo">Desde sempre, tenho nutrido uma paixão pela tecnologia, e faz algum tempo que encontrei minha vocação na programação e em hardware. Além disso, meus interesses pessoais não param por aí, me interesso em música, jogos, fotografia, musculação e muay thai.</p>
+            <p class="corpo">Atualmente, estou matriculada no <strong> Colégio Estadual Barão do Cerro Azul</strong>, onde estou no meu último ano de escola. Se você desejar saber mais detalhes sobre a instituição onde estudo, sinta-se à vontade para clicar <a href="colegio.html" class="links">aqui</a>.</p>
+            <p class="corpo">Pouco menos de um ano começei a trabalhar em uma loja de informática, me encontrando em mais uma área da tecnologia na parte de <strong>Hardware</strong>. Faço manuntenções de PCs, impressoras e notebooks não apenas na parte de hardware, mas também na parte de software formatando, atulizando, etc. Adoro meu ambiente de trabalho, e sou muito feliz por ter encontrado um trabalho no ramo da tecnologia, em uma área que até então não tinha muito contato.</p>
+            <div class="container-imagens">
+                <img src="./img/paisagem01.jpg" class="imagens" alt="Paisagem natural de Cruz Machado">
+                <img src="./img/paisagem02.jpg" class="imagens" alt="Paisagem natural de Cruz Machado">
+            </div>
+            <div class="certificados">
+                <h2 class="subtitulo">Certificados:</h2>
+                <p class="corpo">Cursos feitos pela Alura: <a href="https://cursos.alura.com.br/user/julia-vitoriada-luz/fullCertificate/77882d6826cd87d1cd7c222171303716" class="links">Aqui</a> e <a href="https://cursos.alura.com.br/user/juliavitoriadaluz5/fullCertificate/cd37ca2d86806d5b0b5f5160ed7b0190" class="links">aqui</a></p>
+            </div>
+        </section>
+        <section>
+        <h2 class="subtitulo">Minhas redes sociais:</h2>
+        <div class="container-redes-sociais">
+                <a href="https://github.com/JuJuVitoria" class="redes-sociais">
+                    <h3 class="corpo">Meu github</h3>
+                    <img src="./img/icons/github.svg" alt="Ícone github">
+                </a>
+                <a href="https://www.instagram.com/juliavt00/" class="redes-sociais">
+                    <h3 class="corpo">Meu instagram</h3>
+                    <img src="./img/icons/instagram.svg" alt="Ícone instagram">
+                </a>
+                <a href="https://www.instagram.com/avantisinformaticaandschool/" class="redes-sociais">
+                    <h3 class="corpo">Instagram do meu trabalho</h3>
+                    <img src="./img/icons/instagram.svg" alt="Ícone instagram">
+                </a>
+        </div>
+        </section>
+        <div class="container-slider">
+            <button id="prev-button"><img src="./img/icons/arrow.svg" alt="prev-button"></button>
+            <div class="container-images">
+                <img src="./img/20230322_144320.jpg" alt="" class="slider on">
+                <img src="./img/20230326_114828.jpg" alt="" class="slider">
+                <img src="./img/20230326_114843.jpg" alt="" class="slider">
+                <img src="./img/20230329_143828.jpg" alt="" class="slider">
+                <img src="./img/20230330_173140.jpg" alt="" class="slider">
+            </div>
+            <button id="next-button"><img src="./img/icons/arrow.svg" alt="next-button"></button>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+
+    <script type="module" src="./js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+.foto-perfil {
+    float: left;
+    object-fit: cover;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    padding: 0 2rem;
+}
+
+.links {
+    font-weight: 600;
+    color: var(--corTexto);
+    text-decoration: none;
+}
+
+.container-imagens {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.imagens {
+    display: block;
+    margin: 1rem auto;
+    object-fit: cover;
+    max-height: 250px;
+    max-width: 350px;
+    width: 50%;
+    border-radius: 5%;
+}
+
+.certificados {
+    margin: 1rem 0;
+}
+
+.container-redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.redes-sociais {
+    color: var(--corTexto);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #c5c5c5;
+    width: 140px;
+    padding: .5rem;
+    border-radius: 5%;
+}
+
+@media screen and (max-width: 481px) {
+    .container-imagens {
+        flex-direction: column;
+        gap: 0;
+    }
+}

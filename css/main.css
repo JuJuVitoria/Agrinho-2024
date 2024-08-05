@@ -6,11 +6,13 @@
 /* Layout styles */
 @import url('./layout/header.css');
 @import url('./layout/footer.css');
+@import url('./layout/slider.css');
 
 /* Pages styles */
 @import url('./pages/index.css');
 @import url('./pages/home.css');
 @import url('./pages/school.css');
+@import url('./pages/aboutMe.css');
 
 body {
     font-family: 'Montserrat', sans-serif;

@@ -32,7 +32,7 @@ strong {
 
 .secao_localizacao__mapa {
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 var(--cinza), 0 6px 20px 0 var(--cinza);
+    box-shadow: 0 4px 8px 0 #4b4b4b, 0 6px 20px 0 #4b4b4b;
     height: 400px;
 }
 
