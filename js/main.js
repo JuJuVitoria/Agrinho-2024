@@ -1,7 +1,9 @@
 import { setupNav } from './modules/nav.js';
-import { setupSlider } from './modules/slider.js';
+import { setupTheme } from './modules/theme.js'
+import { setupFontSize } from './modules/fontSizeControl.js';
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function () {
     setupNav();
-    setupSlider();
+    setupTheme();
+    setupFontSize();
 });

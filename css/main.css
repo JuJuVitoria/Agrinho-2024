@@ -7,12 +7,15 @@
 @import url('./layout/header.css');
 @import url('./layout/footer.css');
 @import url('./layout/slider.css');
+@import url('./layout/theme.css');
 
 /* Pages styles */
 @import url('./pages/index.css');
 @import url('./pages/home.css');
 @import url('./pages/school.css');
 @import url('./pages/aboutMe.css');
+
+@import url('./acessibility.css');
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -29,6 +32,8 @@ body {
         calc(50vw - calc(var(--width) / 2))
         repeat(3, 1fr)
         calc(50vw - calc(var(--width) / 2));
+
+    transition: .2s;
 }
 
 main {

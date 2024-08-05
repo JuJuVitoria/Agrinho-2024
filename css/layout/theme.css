@@ -1,0 +1,66 @@
+.button-theme {
+    width: 90px;
+    height: 50px;
+    background-color: var(--gray);
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+
+    z-index: 9800;
+}
+
+.button-theme .indicator {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transform: scale(.8);
+    position: absolute;
+    left: 0;
+    transition: .5s;
+}
+
+.button-theme.dark {
+    background-color: var(--mediumGray);
+}
+
+.button-theme.dark .indicator {
+    left: 40px;
+    background-color: var(--black);
+}
+
+body.dark {
+    background-color: var(--darkGray);
+}
+
+body.dark .titulo  {
+    color: var(--white);
+}
+
+body.dark .subtitulo  {
+    color: var(--white);
+}
+
+body.dark .subtituloSecundario  {
+    color: var(--white);
+}
+
+body.dark .corpo  {
+    color: var(--white);
+}
+
+body.dark .descricao  {
+    color: var(--white);
+}
+
+header.dark {
+    background-color: var(--darkCyan);
+}
+
+header.dark .navegacao-primaria {
+    background-color: var(--darkCyan);
+}
+
+footer.dark {
+    background-color: var(--darkCyan);
+}
