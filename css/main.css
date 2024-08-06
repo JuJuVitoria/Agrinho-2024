@@ -8,6 +8,7 @@
 @import url('./layout/footer.css');
 @import url('./layout/slider.css');
 @import url('./layout/theme.css');
+@import url('./layout/card.css');
 
 /* Pages styles */
 @import url('./pages/index.css');

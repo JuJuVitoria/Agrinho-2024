@@ -37,7 +37,7 @@
     margin: 1rem 0;
 }
 
-.container-redes-sociais {
+/* .container-redes-sociais {
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -55,7 +55,7 @@
     width: 140px;
     padding: .5rem;
     border-radius: 5%;
-}
+} */
 
 @media screen and (max-width: 481px) {
     .container-imagens {
