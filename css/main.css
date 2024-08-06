@@ -73,6 +73,7 @@ main {
     font-size: var(--tamanhoMedio);
     color: var(--lightBlack);
     margin-bottom: .2rem;
+    text-align: justify;
 }
 
 .descricao {
