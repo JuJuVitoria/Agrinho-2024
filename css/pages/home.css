@@ -1,0 +1,44 @@
+.bg-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    grid-column: 1 / -1;
+    position: relative;
+    height: 50vw;
+    padding: 2rem 2rem;
+}
+
+.bg-image img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    z-index: -100;
+}
+
+.bg-image h1 {
+    font-size: var(--tamanhoGrande);
+    font-weight: 600;
+    color: var(--white);
+    z-index: 1;
+}
+
+.bg-line {
+    background-color: var(--white);
+    height: 1px;
+    width: 50%;
+    max-width: 580px;
+}
+
+.bg-image h2 {
+    font-size: var(--tamanhoGrande);
+    font-weight: 500;
+    color: var(--white);
+}
