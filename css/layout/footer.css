@@ -14,9 +14,12 @@ footer .subtitulo {
     color: var(--white);
 }
 
-footer .corpo {
+footer p {
+    font-size: var(--tamanhoMedio);
+    color: var(--lightBlack);
+    margin-bottom: 1.5rem;
+    text-align: center;
     color: var(--white);
-    padding-bottom: 1rem;
 }
 
 .credits-icons {

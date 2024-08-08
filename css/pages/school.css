@@ -11,11 +11,12 @@ strong {
 .secao_contato {
     padding: 2rem 0;
     text-align: center;
+    color: var(--lightBlack);
 }
 
 .secao_contato a {
     text-decoration: none;
-    color: var(--corTextoEscuro);
+    color: var(--lightBlack);
 }
 
 .secao_contato a :hover {

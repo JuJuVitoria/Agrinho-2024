@@ -20,6 +20,24 @@
 
         <nav>
             <ul id="navegacao-primaria" data-visible="false" data-visible="false" class="navegacao-primaria flex">
+                <li class="navegacao-item navegacao-item-acessibilidade">
+                    <a href="#" id="configuracao-acessibilidade-btn"><img src="./img/icons/settings-accessibility.svg" alt="Ícone de configuração de acessibilidade"><img src="./img/icons/arrow-drop-down.svg" alt="Ícone seta para baixo"></a>
+                    <div class="navegacao-acessibilidade">
+                        <div class="accessibility-font-size">
+                            <h2 class="subtitulo">Tamanho fonte</h2>
+                            
+                            <button id="increase-font" class="button-font-size"><img src="./img/icons/text-increase.svg" alt="Ícone aumentar fonte"></button>
+                            <button id="decrease-font" class="button-font-size"><img src="./img/icons/text-decrease.svg" alt="Ícone diminuir fonte"></button>
+                        </div>
+                        
+                        <div class="accessibility-theme">
+                            <h2 class="subtitulo">Tema</h2>
+                            <button class="button-theme" id="button-theme">
+                                <div class="indicator"></div>
+                            </button>
+                        </div>
+                    </div>
+                </li>
                 <li class="navegacao-item">
                     <a href="./home.html" class="navegacao-link">
                         <img src="./img/icons/home.svg" alt="Ícone home">
@@ -41,22 +59,6 @@
             </ul>
         </nav>
     </header>
-
-    <section class="accessibility">
-        <div class="accessibility-font-size">
-            <h2 class="subtitulo">Tamanho fonte</h2>
-            
-            <button id="increase-font" class="button-font-size">A+</button>
-            <button id="decrease-font" class="button-font-size">A-</button>
-        </div>
-
-        <div class="accessibility-theme">
-            <h2 class="subtitulo">Tema</h2>
-            <div class="button-theme" id="button-theme">
-                <div class="indicator"></div>
-            </div>
-        </div>
-    </section>
 
     <main>
         <section class="sobreMim">
@@ -82,7 +84,7 @@
             <div class="container-card">
                 <div class="card">
                     <div class="card-content">
-                        <h2 class="corpo">Meu Instagram</h3>
+                        <h2>Meu Instagram</h3>
                         <div class="card-social-media">
                             <img src="./img/icons/instagram.svg" alt="Ícone instagram">
                             <a href="https://www.instagram.com/juliavt00/" class="redes-sociais">Clique aqui!</a>
@@ -91,7 +93,7 @@
                 </div>
                 <div class="card">
                     <div class="card-content">
-                        <h2 class="corpo">Meu Github</h3>
+                        <h2>Meu Github</h3>
                         <div class="card-social-media">
                             <img src="./img/icons/github.svg" alt="Ícone instagram">
                             <a href="https://github.com/JuJuVitoria" class="redes-sociais">Clique aqui!</a>
@@ -100,7 +102,7 @@
                 </div>
                 <div class="card">
                     <div class="card-content">
-                        <h2 class="corpo">Instagram do meu trabalho</h3>
+                        <h2>Instagram do meu trabalho</h3>
                         <div class="card-social-media">
                             <img src="./img/icons/instagram.svg" alt="Ícone instagram">
                             <a href="https://www.instagram.com/avantisinformaticaandschool/" class="redes-sociais">Clique aqui!</a>
@@ -128,14 +130,14 @@
         <div class="footer-container">
             <div class="credits">
                 <h2 class="subtitulo">Créditos</h2>
-                <p class="corpo">Professora: <strong>Vanessa Plewka</strong></p>
+                <p>Professora: <strong>Vanessa Plewka</strong></p>
 
                 <div class="credits-icons">
                     <a href="https://www.sistemafaep.org.br/agrinho/" target="_blank" aria-label="Sistema Faep Senar PR"><img src="./img/icons/SistemaFaepSenarPR-logo.png" alt="Logo Faep Senar PR" height="35px"></a>
                     <a href="https://www.alura.com.br/" target="_blank" aria-label="Alura"><img src="./img/icons/alura-logo.svg" alt="Logo Alura" height="24px"></a>
                     <a href="https://www.parana.pr.gov.br/" target="_blank" aria-label="Estado do Paraná"><img src="./img/icons/GovernoDoEstado-logopng.svg" alt="Logo Estado do Paraná" height="40px"></a>
                 </div>
-                <p class="corpo">ícones e fonte por:</p>
+                <p>ícones e fonte por:</p>
                 <div class="credits-icons">
                     <a href="https://fonts.google.com/" target="_blank" aria-label="Google Fonts"><img src="./img/icons/googleFonts.svg" alt="Ícone Google Fonts" width="24px"></a>
                     <a href="https://www.flaticon.com/" target="_blank" aria-label="Flaticon"><img src="./img/icons/flaticon.svg" alt="Ícone Flaticon" height="24px"></a>
@@ -143,8 +145,8 @@
             </div>
             <div class="contact-info">
                 <h3 class="subtitulo">Minha escola</h3>
-                <p class="corpo"><strong>Endereço:</strong> Av. Interventor Manoel Ribas, 238 - Centro, Cruz Machado - PR, 84620-000</p>
-                <p class="corpo"><strong>Telefone:</strong> (42) 3554-1254</p>
+                <p><strong>Endereço:</strong> Av. Interventor Manoel Ribas, 238 - Centro, Cruz Machado - PR, 84620-000</p>
+                <p><strong>Telefone:</strong> (42) 3554-1254</p>
             </div>
 
             <div class="footer-links">
@@ -170,12 +172,12 @@
             <div class="legal-info">
                 <h3 class="subtitulo">Informações Legais</h3>
                 <ul>
-                    <p class="corpo">Este site possui a licença MIT <a href="#">para saber mais sobre.</a></p>
+                    <p>Este site possui a licença MIT <a href="#">para saber mais sobre.</a></p>
                 </ul>
             </div>
             
             <div class="copyright">
-                <p class="corpo">© 2024 Julia Vitoria Da Luz.</p>
+                <p>© 2024 Julia Vitoria Da Luz.</p>
             </div>
         </div>
 

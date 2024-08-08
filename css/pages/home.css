@@ -42,3 +42,28 @@
     font-weight: 500;
     color: var(--white);
 }
+
+.imagens {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 481px) {
+    .bg-image {
+        height: 90vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bg-image {
+        height: 70vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bg-image {
+        max-height: 600px;
+    }
+}

@@ -1,42 +1,48 @@
 .section-card {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
+
+    margin: 1rem 0;
 }
 
 .container-card {
     position: relative;
+    z-index: 8000;
+
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1 auto; 
+
     min-width: 100%;
-    flex-direction: wrap;
-    z-index: 8000;
 }
 
 .container-card .card {
     position: relative;
-    width: 40vw;
-    max-width: 300px;
-    height: 30vw;
-    max-height: 300px;
-    margin: 1rem;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
-    border-radius: 20px;
-    background: var(--gray);
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid #929292;
-    border-left: 1px solid #929292;
-    padding: .5rem;
+
+    width: 40vw;
+    max-width: 250px;
+    height: auto;
+
+    margin: 1rem;
+    padding: 56px 16px 16px 16px;
+    
+    box-shadow: 0px 5px 6px rgba(24, 24, 27, 0.02), 0px 8px 15px rgba(24, 24, 27, 0.1);
+    background: rgba(255, 255, 255, .015);
+    border-radius: 15px;
+    transition: box-shadow .25s;
 }
 
 .container-card .card .card-content {
-    padding: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
+
+    padding: .5em;
+    
     transform: translateY(100px);
     opacity: 0;
     transition: .5s;
@@ -70,3 +76,15 @@
     gap: .5rem;
     padding: .5rem;
 }
+
+@media screen and (max-width: 481px) {
+    .container-card .card{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-card .card{
+        max-width: 300px;
+    }
+}  

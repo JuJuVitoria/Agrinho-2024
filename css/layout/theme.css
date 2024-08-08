@@ -1,23 +1,35 @@
 .button-theme {
-    width: 90px;
-    height: 50px;
+    position: relative;
+    z-index: 9999;
+
+    width: 70px;
+    height: 40px;
+
     background-color: var(--gray);
     border-radius: 25px;
-    position: relative;
-    cursor: pointer;
+    border: none;
 
-    z-index: 9800;
+    cursor: pointer;
+    transition: .5s;
 }
 
 .button-theme .indicator {
-    width: 50px;
-    height: 50px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    transform: scale(.8);
-    position: absolute;
+    position: absolute;  
+    top: 0;
     left: 0;
+
+    width: 40px;
+    height: 40px;
+    
+    transform: scale(.8);
     transition: .5s;
+
+    border-radius: 50%;
+    background-color: var(--white);
+    background-image: url('../../img/icons/light-mode.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .button-theme.dark {
@@ -25,8 +37,10 @@
 }
 
 .button-theme.dark .indicator {
-    left: 40px;
+    left: 30px;
+
     background-color: var(--black);
+    background-image: url('../../img/icons/dark-mode.svg');
 }
 
 body.dark {
@@ -59,6 +73,18 @@ header.dark {
 
 header.dark .navegacao-primaria {
     background-color: var(--darkCyan);
+}
+
+header.dark .navegacao-acessibilidade {
+    background-color: var(--darkCyan);
+}
+
+body.dark .secao_contato {
+    color: var(--white);
+}
+
+body.dark .secao_contato a {
+    color: var(--white);
 }
 
 footer.dark {

@@ -20,6 +20,24 @@
 
         <nav>
             <ul id="navegacao-primaria" data-visible="false" data-visible="false" class="navegacao-primaria flex">
+                <li class="navegacao-item navegacao-item-acessibilidade">
+                    <a href="#" id="configuracao-acessibilidade-btn"><img src="./img/icons/settings-accessibility.svg" alt="Ícone de configuração de acessibilidade"><img src="./img/icons/arrow-drop-down.svg" alt="Ícone seta para baixo"></a>
+                    <div class="navegacao-acessibilidade">
+                        <div class="accessibility-font-size">
+                            <h2 class="subtitulo">Tamanho fonte</h2>
+                            
+                            <button id="increase-font" class="button-font-size"><img src="./img/icons/text-increase.svg" alt="Ícone aumentar fonte"></button>
+                            <button id="decrease-font" class="button-font-size"><img src="./img/icons/text-decrease.svg" alt="Ícone diminuir fonte"></button>
+                        </div>
+                        
+                        <div class="accessibility-theme">
+                            <h2 class="subtitulo">Tema</h2>
+                            <button class="button-theme" id="button-theme">
+                                <div class="indicator"></div>
+                            </button>
+                        </div>
+                    </div>
+                </li>
                 <li class="navegacao-item">
                     <a href="./home.html" class="navegacao-link">
                         <img src="./img/icons/home.svg" alt="Ícone home">
@@ -49,34 +67,37 @@
         <h2>Agrinho 2024</h2>
     </div> 
 
-    <section class="accessibility">
-        <div class="accessibility-font-size">
-            <h2 class="subtitulo">Tamanho fonte</h2>
-            
-            <button id="increase-font" class="button-font-size">A+</button>
-            <button id="decrease-font" class="button-font-size">A-</button>
-        </div>
-
-        <div class="accessibility-theme">
-            <h2 class="subtitulo">Tema</h2>
-            <div class="button-theme" id="button-theme">
-                <div class="indicator"></div>
-            </div>
-        </div>
-    </section>
-
     <main>
-        <section>
-            <p class="corpo">A emigração rural refere-se à migração em grande escala de pessoas das zonas rurais para as cidades em busca de melhores condições de vida, o que trouxe enormes desafios às cidades e às zonas rurais. Para aliviar estes problemas e promover um desenvolvimento equilibrado e sustentável, devem ser implementadas estratégias para melhorar as condições de vida rural e atrair a população de volta para casa. Os investimentos em infraestruturas, educação, formação e práticas agrícolas sustentáveis são fundamentais para tornar as zonas rurais uma opção viável e atrativa, ajudando a alcançar um futuro em que as zonas urbanas e rurais sejam harmoniosas e prósperas.</p> 
-            <p class="corpo">Observando o cenário atual do Brasil, percebe-se que a população urbana excede a rural, refletindo a crescente urbanização desenfreada. O processo que explica essa circunstância é chamado êxodo rural, nomeia-se êxodo rural o processo de migração de pessoas da zona rural para a urbana, isto é, a saída de cidadãos rurais com direção às metrópoles. No entanto, essa migração em massa pode trazer uma série de problemas, tanto para as cidades quanto para as áreas rurais.</p>
-            <p class="corpo">Tendo em vista isso, nesta página exploraremos forma de melhorar essa situação e trazer mais pessoas de volta para o campo de forma sustentável.</p>
+        <section class="section-lide">
+            <p class="corpo">A emigração rural refere-se à migração em grande escala de pessoas das zonas rurais
+                para as cidades em busca de melhores condições de vida, o que trouxe enormes desafios às
+                cidades e às zonas rurais. Para aliviar estes problemas e promover um desenvolvimento
+                equilibrado e sustentável, devem ser implementadas estratégias para melhorar as condições de
+                vida rural e atrair a população de volta para casa. Os investimentos em infraestruturas, educação,
+                formação e práticas agrícolas sustentáveis são fundamentais para tornar as zonas rurais uma
+                opção viável e atrativa, ajudando a alcançar um futuro em que as zonas urbanas e rurais sejam
+                harmoniosas e prósperas.</p> 
+        </section>
+        <section class="section-introducao">
+            <p class="corpo">Observando o cenário atual do Brasil, percebe-se que a população urbana excede a rural,
+                refletindo a crescente urbanização desenfreada. O processo que explica essa circunstância é
+                chamado êxodo rural, nomeia-se êxodo rural o processo de migração de pessoas da zona rural
+                para a urbana, isto é, a saída de cidadãos rurais com direção às metrópoles. No entanto, essa
+                migração em massa pode trazer uma série de problemas, tanto para as cidades quanto para as
+                áreas rurais.</p>
+            <p class="corpo">Diante do exposto , esta página propõe-se a explorar formas de melhorar essa situação
+                e trazer mais pessoas de volta para o campo de forma sustentável.</p>
+            
+            <img src="./img/paisagem01.jpg" class="imagens" alt="Paisagem de Cruz Machado">
         </section>
 
-        <section>
+        <section class="section-desenvolvimento">
             <h2 class="subtitulo">Desafios do Êxodo Rural</h2>
 
-            <p class="corpo">Muitas causas explicam esse processo de migração, motivado por inúmeros fatores, que incluem a busca por melhores oportunidades de emprego, melhores circunstâncias de vida e melhor acesso a serviços de saúde e educação. Nesse sentido, esse movimento também resulta em desafios significativos:</p>
-        
+            <p class="corpo">Muitas causas explicam esse processo de migração, motivado por inúmeros fatores, que incluem
+                a busca por melhores oportunidades de emprego, melhores circunstâncias de vida e melhor
+                acesso a serviços de saúde e educação. Nesse sentido, esse movimento também resulta em
+                desafios significativos:</p>
             
         </section>
         <section class="section-card">
@@ -84,22 +105,74 @@
                 <div class="card">
                     <div class="card-content">
                         <h2 class="subtituloSecundario">Despovoamento rural: </h3>
-                        <p class="corpo">O abando das áreas rurais é um fenômeno influenciado por uma combinação de fatores econômicos, sociais, ambientais, tecnológicos, culturais e políticos. Nesse sentido, o fator tecnológico muitas vezes está relacionado ao fato de muitos indivíduos terem pouco acesso ou até mesmo nenhum contato com a tecnologia.</p>
+                        <p class="corpo">o abando das áreas rurais é um fenômeno influenciado por uma
+                            combinação de fatores econômicos, sociais, ambientais, tecnológicos, culturais e políticos. Nesse
+                            sentido, o fator tecnológico muitas vezes está relacionado ao fato de muitos indivíduos terem
+                            pouco acesso ou até mesmo nenhum contato com a tecnologia.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <h2 class="subtituloSecundario">Superlotação urbana:</h3>
-                        <p class="corpo">O aumento desenfreado dos centros urbanos leva a uma densidade populacional excessiva nas cidades, pressionando a infraestrutura urbana que resulta em complicações, como moradias precárias, desemprego, favelização, desigualdade e violência.</p>
+                        <p class="corpo">o aumento desenfreado dos centros urbanos leva a uma
+                            densidade populacional excessiva nas cidades, pressionando a infraestrutura urbana que resulta
+                            em complicações, como moradias precárias, desemprego, favelização, desigualdade e violência.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <h2 class="subtituloSecundario">Desigualdade social:</h3>
-                        <p class="corpo">O êxodo rural pode também aumentar a desigualdade social, com pessoas que de baixa renda enfrentando dificuldades em busca de uma melhor qualidade de vida. </p>
+                        <p class="corpo">o êxodo rural pode também aumentar a desigualdade social, com
+                            pessoas que de baixa renda enfrentando dificuldades em busca de uma melhor qualidade de
+                            vida. Visto que as grandes cidades não estão preparadas para o grande número de pessoas que
+                            a ocuparão em decorrência do êxodo.</p>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="section-desenvolvimento">
+            <h2 class="subtituloSecundario">Entretando, por que não reverter esse
+                problema incentivando a volta e a
+                permanência das pessoas para o campo
+                com boas oportunidades para uma melhor
+                qualidade de vida?</h2>
+            <p class="corpo">Dessa forma, consideramos indispensável intervir sobre esse cenário, mas como
+                fazer isso? Temos em jogo o bem-estar da população, o combate à desigualdade
+                social, a busca por qualidade de vida, entre outros fatores interligados à
+                população rural que refletem também nas grandes cidades.</p>
+            <p class="corpo">Essa luta também é dever das políticas públicas e do Estado, devendo-se
+                preocupar em desenvolver programas de qualificação para o trabalho agrícola
+                moderno, colocando em pauta as novas tecnologias do campo e também a
+                preservação e proteção do meio ambiente, através de cursos gratuitos
+                fornecidos em escolas públicas pelo Brasil. Para alcançar mais pessoas, devese divulgar o programa 
+                nas redes sociais do governo. Paralelamente, é preciso intervir sobre a má influência midiática; 
+                assim, esta precisa divulgar o programa governamental de qualificação para o trabalho agrícola. Dessa maneira, será
+                possível superar a “cegueira social” em relação à importância do campo para a
+                cidade e às oportunidades que estas devem gerar.</p>
+            <p class="corpo">Um grande avanço no incentivo à permanência, principalmente dos jovens no
+                campo, está relacionado às Casas Familiares Rurais e aos Colégios Agrícolas.</p>
+
+            <p class="corpo">As Casas Familiares Rurais (CFRs) e os Colégios Agrícolas desempenham um papel fundamental 
+                quando pensamos em desenvolvimento rural e emprego de tecnologias para uma agricultura sustentável e moderna. 
+                Essas instituições de ensino oferecem cursos técnicos e profissionalizantes, com objetivo de preparar os 
+                jovens para que superem desafios no campo e que tenham incentivos para garantir sua permanência nesse meio.</p>
+        </section>
+
+        <section class="section-conhecendo-mais">
+        <h2 class="subtitulo">Conhecendo mais...</h2>
+        
+        <h3 class="subtituloSecundario">Casas Familiares Rurais (CFRs)</h3>
+        <p class="corpo">As Casas Familiares Rurais são instituições educacionais que possuem uma metodologia de alternância, 
+            nessa metodologia os alunos organizam seu tempo dividindo-o entre a escola e a propriedade familiar. Desta forma, 
+            a ideia dessa metodologia é aplicar os conhecimentos adquiridos em sala de aula em suas atividades agrícolas diárias. 
+            Em resumo, as CFRs oferecem uma educação integral que além das disciplinas da Base Nacional Comum Curricular, 
+            foca também em técnicas agrícolas, gestão de propriedades, empreendedorismo e desenvolvimento comunitário.</p>
+
+        <h3 class="subtituloSecundario"></h3>
+        <p class="corpo"></p>
+
+
         </section>
     </main>
     
@@ -107,14 +180,14 @@
         <div class="footer-container">
             <div class="credits">
                 <h2 class="subtitulo">Créditos</h2>
-                <p class="corpo">Professora: <strong>Vanessa Plewka</strong></p>
+                <p>Professora: <strong>Vanessa Plewka</strong></p>
 
                 <div class="credits-icons">
                     <a href="https://www.sistemafaep.org.br/agrinho/" target="_blank" aria-label="Sistema Faep Senar PR"><img src="./img/icons/SistemaFaepSenarPR-logo.png" alt="Logo Faep Senar PR" height="35px"></a>
                     <a href="https://www.alura.com.br/" target="_blank" aria-label="Alura"><img src="./img/icons/alura-logo.svg" alt="Logo Alura" height="24px"></a>
                     <a href="https://www.parana.pr.gov.br/" target="_blank" aria-label="Estado do Paraná"><img src="./img/icons/GovernoDoEstado-logopng.svg" alt="Logo Estado do Paraná" height="40px"></a>
                 </div>
-                <p class="corpo">ícones e fonte por:</p>
+                <p>ícones e fonte por:</p>
                 <div class="credits-icons">
                     <a href="https://fonts.google.com/" target="_blank" aria-label="Google Fonts"><img src="./img/icons/googleFonts.svg" alt="Ícone Google Fonts" width="24px"></a>
                     <a href="https://www.flaticon.com/" target="_blank" aria-label="Flaticon"><img src="./img/icons/flaticon.svg" alt="Ícone Flaticon" height="24px"></a>
@@ -122,8 +195,8 @@
             </div>
             <div class="contact-info">
                 <h3 class="subtitulo">Minha escola</h3>
-                <p class="corpo"><strong>Endereço:</strong> Av. Interventor Manoel Ribas, 238 - Centro, Cruz Machado - PR, 84620-000</p>
-                <p class="corpo"><strong>Telefone:</strong> (42) 3554-1254</p>
+                <p><strong>Endereço:</strong> Av. Interventor Manoel Ribas, 238 - Centro, Cruz Machado - PR, 84620-000</p>
+                <p><strong>Telefone:</strong> (42) 3554-1254</p>
             </div>
 
             <div class="footer-links">
@@ -149,12 +222,12 @@
             <div class="legal-info">
                 <h3 class="subtitulo">Informações Legais</h3>
                 <ul>
-                    <p class="corpo">Este site possui a licença MIT <a href="#">para saber mais sobre.</a></p>
+                    <p>Este site possui a licença MIT <a href="#">para saber mais sobre.</a></p>
                 </ul>
             </div>
             
             <div class="copyright">
-                <p class="corpo">© 2024 Julia Vitoria Da Luz.</p>
+                <p>© 2024 Julia Vitoria Da Luz.</p>
             </div>
         </div>
 
