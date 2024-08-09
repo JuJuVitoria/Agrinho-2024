@@ -58,7 +58,7 @@
     display: inline-block;
     padding: .5rem 1rem;
     margin-top: .5rem;
-    background-color: var(--white);
+    background-color: var(--gray);
     color: var(--lightBlack);
     text-decoration: none;
     border-radius: 5px;

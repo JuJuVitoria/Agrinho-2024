@@ -79,3 +79,17 @@ main {
 .descricao {
     font-size: var(--tamanhoPequeno);
 }
+
+.imagens {
+    display: block;
+    margin: 1rem auto;
+    object-fit: cover;
+    max-height: 250px;
+    max-width: 450px;
+    min-width: 300px;
+    width: 50%;
+    height: auto;
+    border-radius: 5%;
+
+    box-shadow: 0px 5px 6px rgba(24, 24, 27, 0.02), 0px 8px 15px rgba(24, 24, 27, 0.1);
+}

@@ -1,0 +1,26 @@
+Créditos pelos ícones e pela fonte 
+
+Ícones do Flaticon:
+
+<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/instagram-logo" title="instagram logo icons">Instagram logo icons created by Pixel perfect - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/interaction" title="interaction icons">Interaction icons created by Enamo Studios - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/flaticon" title="flaticon icons">Flaticon icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/go-green" title="go green icons">Go green icons created by Umeicon - Flaticon</a>
+
+Fonte:
+
+Montserrat: Desenvolvida por Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly
+Ícones:
+
+Ícones por Google Fonts
+Apoio:
+
+MDN Web Docs para suporte em erros
+<svg id="mdn-docs-logo" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 694.9 104.4" style="enable-background:new 0 0 694.9 104.4" xml:space="preserve" role="img"></svg>

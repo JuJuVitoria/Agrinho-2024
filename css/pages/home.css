@@ -1,4 +1,4 @@
-.bg-image {
+.bg-video {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,7 +11,7 @@
     padding: 2rem 2rem;
 }
 
-.bg-image img {
+.bg-video video {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -23,8 +23,8 @@
     z-index: -100;
 }
 
-.bg-image h1 {
-    font-size: var(--tamanhoGrande);
+.bg-video h1 {
+    font-size: 2rem;
     font-weight: 600;
     color: var(--white);
     z-index: 1;
@@ -37,33 +37,80 @@
     max-width: 580px;
 }
 
-.bg-image h2 {
-    font-size: var(--tamanhoGrande);
+.bg-video h2 {
+    font-size: 1.5rem;
     font-weight: 500;
     color: var(--white);
 }
 
-.imagens {
-    display: block;
-    margin: 0 auto;
-    width: 60%;
-    padding: 1rem;
+.section-lide {
+    margin-bottom: 2rem;
+}
+
+.section-desenvolvimento h2{
+    margin: 3rem 0 2rem 0;
+}
+
+.fotos-lavoura {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    gap: 2rem;
+    
+    margin: 3rem 0;
+}
+
+.fotos-lavoura img {
+    width: 40vw;
+    max-width: 250px;
+
+    border-radius: 10px;
+    box-shadow: 0px 5px 6px rgba(24, 24, 27, 0.02), 0px 8px 15px rgba(24, 24, 27, 0.1);
+}
+
+.section-conhecendo-mais {
+    margin: 2rem 0 1rem 0;
+}
+
+.section-conclusao {
+    margin: 2rem 0;
 }
 
 @media screen and (max-width: 481px) {
-    .bg-image {
-        height: 90vw;
+    .bg-video {
+        height: 50vw;
+    }
+
+    .bg-video h1 {
+        font-size: var(--tamanhoGrande);
+    }
+
+    .bg-video h2 {
+        font-size: var(--tamanhoMedio);
+    }
+
+    .fotos-lavoura img {
+        width: 90%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .bg-image {
+    .bg-video {
         height: 70vw;
+    }
+
+    .bg-video h1 {
+        font-size: var(--tamanhoGrande);
+    }
+
+    .bg-video h2 {
+        font-size: var(--tamanhoMedio);
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .bg-image {
+    .bg-video {
         max-height: 600px;
     }
 }
